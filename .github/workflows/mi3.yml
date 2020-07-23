@@ -98,7 +98,7 @@ jobs:
       id: organize
       if: always()
       run: |
-        cd /opt/imgags
+        cd /opt/images/
         echo "::set-env name=FIRMWARE::$PWD"
 
     - name: Upload Firmware Directory
